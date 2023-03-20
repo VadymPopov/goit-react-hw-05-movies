@@ -1,4 +1,4 @@
-import { Button } from "../../pages/Movies.styled"; 
+import { Button } from "../../pages/Movies/Movies.styled"; 
 import propTypes from 'prop-types';
 
 export const Buttons = ({ page, totalPages, handlePageChange }) => {

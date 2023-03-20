@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { searchMovies } from "services/api";
-import { Container, Card, Img, TextContainer, Link, Text } from "./Home.styled";
+import { Container, Card, Img, TextContainer, Link, Text } from "../Home/Home.styled";
 import { Wrapper,Input,Button, Header } from "./Movies.styled";
 import NoPoster from 'images/no-image-main.png';
-import {imgUrl} from './Home';
+import {imgUrl} from '../Home/Home';
 
 const Movies = ()=>{
     const location = useLocation();

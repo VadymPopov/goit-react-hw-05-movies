@@ -3,10 +3,10 @@ import { useParams, Link, Outlet, useLocation } from "react-router-dom";
 import { getMovieDetails } from "services/api";
 import { Suspense } from "react";
 import { Card, Image, InfoContainer, Score, Title, Wrapper, SubTitle, Overview, Genres, Genre, ButtonsList, Item } from "./MovieDetails.styled";
-import { Button } from "./Movies.styled"; 
+import { Button } from "../Movies/Movies.styled"; 
 import NoPoster from 'images/no-image-main.png';
-import {imgUrl} from './Home';
-import Loader from "components/Loader";
+import {imgUrl} from '../Home/Home';
+import Loader from "components/Loader/Loader";
 
 const MovieDetails = ()=>{
     const location = useLocation();

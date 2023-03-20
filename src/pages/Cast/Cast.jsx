@@ -3,7 +3,7 @@ import { getMovieCredits } from "services/api";
 import { useLocation } from "react-router-dom";
 import { Image, Item, List, Text } from "./Cast.styled";
 import NoImg from 'images/no-image-actor.jpg';
-import {imgUrl} from './Home';
+import {imgUrl} from '../Home/Home';
 
 const Cast = ()=>{
     const [cast,setCast]=useState(null);
